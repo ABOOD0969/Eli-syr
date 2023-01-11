@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Eli-syr</title>
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+          </head>
+
+        <body>  
+
+            <div class="container-fluid bg-dark text-white p-5 text-center">
+                <h1>Task</h1>
+                <h2>for Eli-syr Company </h2> 
+                <h3>we are an online learning community, seeking to provide great education to anyone and anywhere.</h3>   
+            </div>
+
+            <div class="container pb-5 mb-5 mt-3">
+
+
+                    <!-- Nav tabs -->
+                  <ul class="nav nav-tabs" role="tablist">
+                    <li class="nav-item">
+                      <a class="nav-link active  " data-bs-toggle="tab" href="#npm">NPM</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link  " data-bs-toggle="tab" href="#yarn">YARN</a>
+                    </li>
+                    <li class="nav-item ">
+                      <a class="nav-link " data-bs-toggle="tab" href="#yarnandnpm">npm and Yarn</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" data-bs-toggle="tab" href="#React">React</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link  " data-bs-toggle="tab" href="#Laravel">Laravel</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" data-bs-toggle="tab" href="#Pnpm">Pnpm</a>
+                    </li>
+                    
+                  </ul>
+
+                    <!--  tab panes -->
+              <div class="tab-content">
+              
+                  <!-- NPM PANE-->
+                <div id="npm" class="container  active tab-pane  pb-5 mb-5"><br>
+                    <h3>NPM : node package manager  </h3>
+                    <div id="npm-accordion">
+
+                      <div class="card">
+                        <div class="card-header">
+                          <a href="#whatispackage" data-bs-toggle="collapse" class="btn">What is package manager ? </a>
+                        </div>
+                        <div class="collapse show " id="whatispackage" data-bs-parent="#npm-accordion">
+                          <div class="card-body">
+                            A package manager is a program that lets
+                            us easily install software that other people have written on our computer or in our projects , These pieces of 
+                            software are called <span class="text-danger">package</span>  , a package manager also lets us install specific versions of each package , so we can 
+                            easily upgrade or downgrade a package , and the package manager will note which version of a package we are 
+                            using in a file call <span class="text-warning">package.json</span> so that we can easily download the right versions again in the future , or so 
+                            that other developer can download the right versions if we’re collaborating with others 
+                            <br> by using the package manager to install packages written by other people , we can build our own projects 
+                            much more quickly , since we don’t have to write all of the code from scratch 
+                            <br>   <span class="text-warning">npm</span> is one of the most popular package manager <br> <span class="text-warning">npm</span>  is not the only package manager for <span class="text-primary">JavaScript EcoSystem</span> , there is another package manager available 
+                            called <span class="text-primary">Yarn</span> and <span class="text-primary">Pnpm</span>  
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="card">
+                        <div class="card-header">
+                          <a href="#whatisnpm" data-bs-toggle="collapse" class="btn"> What is npm ? </a>
+                        </div>
+                        <div class="collapse " id="whatisnpm" data-bs-parent="#npm-accordion">
+                          <div class="card-body">
+                            <span class="text-warning">npm</span> is a package manager , primarily for the <span class="text-primary">JavaScript EcoSystem</span>  <br>
+                            <span class="text-warning">npm</span> is a command line tool and is accessed through the terminal <br>
+                            <span class="text-warning">npm</span> is two things : <br>  <mark> <span class="text-success ">first</span></mark> , it is an online repository for the publishing of open-source <span class="text-primary">Node.js </span>  projects ; <mark> <span class="text-success ">second</span></mark>     , it is a command-line utility for interacting with said repository that <br> aids in package installation , version management , and dependency management , A plethora of <span class="text-primary">Node.js </span>libraries and applications are published on npm, and many more … <br>
+                            read more about <a href="https://docs.npmjs.com/about-npm" class="text-decoration-none"> npm </a>
+
+                          </div>
+                           
+                        </div>
+                      </div>
+
+                      <div class="card">
+                        <div class="card-header">
+                          <a href="#wheniuseit"  class="btn" data-bs-toggle="collapse"> When i use npm ? </a>
+                        </div>
+                        <div class="collapse " id="wheniuseit" data-bs-parent="#npm-accordion">
+                          <div class="card-body">
+                            to install <span class="text-primary">packages</span>  written by other people , by using it , we can build our own projects 
+                            much more quickly , since we don’t have to write all of the <span class="text-primary">code</span>  from scratch <br>
+                              import and export modules in <span class="text-primary">JavaScript</span> 
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="card">
+                        <div class="card-header">
+                          <a href="#whereuseit" data-bs-toggle="collapse" class="btn"> where i use npm ?</a>
+                        </div>
+                        <div class="collapse " data-bs-parent="#npm-accordion" id="whereuseit"> 
+                          <div class="card-body">
+                            in the terminal , <br>   <span class="text-primary">npm</span> comes pre-installed with  <span class="text-primary">Node.js</span>  - we don't instal it manually 
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="card">
+                        <div class="card-header">
+                          <a href="#howtouse" data-bs-toggle="collapse" class="btn"> How to use npm  ?</a>
+                        </div>
+                        <div class="collapse  " data-bs-parent="#npm-accordion" id="howtouse"> 
+                          <div class="card-body">
+                            first , create a <span class="text-primary">package.json</span>  file  in the terminal  <p class=" text-danger"> <i>npm init -y</i></p> this command in the command-line will create the <span class="text-primary">package.json</span> file and it will creat the file by itself <br> and  setting all the data to default  <br> so to install an <span class="text-warning">npm</span> package simply run the command 
+                            <br> <p class=" text-danger"> <i>npm install &lt;package-name&gt;</i> </p> 
+                            <p> if we want to install the <span class="text-decoration-underline "> <i>lodash</i> </span></p> 
+                            <div class="container">
+                              <img src="./pic/npm-init.png" width="850" alt="npm init pic">
+                            </div>
+                           <br> <p>then use the following command to install the <span class="text-decoration-underline"> <i>lodash</i> </span> package </p>
+                            <div class="container">
+                              <img src="./pic/lodash.png" width="850" alt="npm init pic" class="mb-3">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                </div>
+
+                  <!-- YARN PANE -->
+                  <div id="yarn" class="container  tab-pane mb-5 pb-5 "><br>
+                    <h3>Yarn</h3>
+                    <div id="yarn-accordion">
+
+                      <div class="card">
+                        <div class="card-header">
+                          <a href="#whatisyarn" data-bs-toggle="collapse" class="btn"> What is yarn ? </a>
+                        </div>
+                        <div class="collapse show" id="whatisyarn" data-bs-parent="#yarn-accordion">
+                          <div class="card-body">
+                           <span class="text-warning" style=" font-size:x-large;">Yarn</span>  is new and open source  <span class="text-primary">JavaScript</span>  package manager developed by  <span class="text-primary">Facebook</span> . Yarn is fully compatible with the  <span class="text-success ">npm</span>  registry and can work alongside <span class="text-success ">npm</span>, but it’s aim it to be a safer, more secure and more reliable alternative
+                            <br>  read more about <a href="https://www.digitalocean.com/community/tutorials/js-yarn-package-manager-quick-intro" class="text-decoration-none"> yarn </a>
+                          </div>
+                        </div>
+                      </div>
+
+
+                      <div class="card">
+                        <div class="card-header">
+                          <a href="#more" data-bs-toggle="collapse" class="btn"> more details ... </a>
+                        </div>
+                        <div class="collapse " id="more" data-bs-parent="#yarn-accordion">
+                          <div class="card-body">
+                                 fast and reliable alternative to <span class="text-primary">npm</span> 
+                            <br> similar syntax and functionality to <span class="text-primary">npm</span>
+                            <br> installs packages from npm registry
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="card">
+                        <div class="card-header">
+                          <a href="#installingyarn" data-bs-toggle="collapse" class="btn"> Installing the Yarn Package Manager </a>
+                        </div>
+                        <div class="collapse " id="installingyarn" data-bs-parent="#yarn-accordion">
+                          <div class="card-body">
+                           <h3> Installing the Yarn Package Manager </h3>
+                           There are a few ways to install  <span class="text-primary" >Yarn</span> . You can, ironically enough, install it through <span class="text-primary" >npm</span> :
+                          <br> <p class="text-danger text-center mt-2 "> <i> npm install -g yarn </i></p>
+                           If you don’t have <span class="text-primary" >npm</span>  installed, you can also install with a simple <span class="text-primary" >bash </span>  script:                          
+                          <br><p class="text-danger text-center mt-2"> <i> curl -o- -L https://yarnpkg.com/install.sh | bash </i></p> 
+                           <h3> Testing  Yarn Installation </h3>
+                           Run this to see if <span class="text-primary" >Yarn</span>  was properly installed or to see if you have the latest version:
+                           <br><p class="text-danger text-center mt-2"> <i> yarn --version </i></p>
+                          </div>
+                        </div>
+                      </div>
+
+                      
+
+
+                      <div class="card">
+                        <div class="card-header">
+                          <a href="#howtouseyarn" data-bs-toggle="collapse" class="btn"> How to use yarn ?</a>
+                        </div>
+                        <div class="collapse  " id="howtouseyarn" data-bs-parent="#yarn-accordion">
+                          <div class="card-body">
+                            <h3> Initializing a Yarn Project </h3> 
+                            To initialize a new project, run <span class="text-primary" > yarn init </span>  :
+
+                            <p class="text-danger " > <i> yarn init</i> </p> 
+                            <h3> Installing Yarn Dependencies </h3> 
+                            Here’s how to install all the dependencies from your <span class="text-primary" > package.json </span>  file ( the equivalent of <span class="text-primary">npm</span>  install ):
+
+                            <p class="text-danger "> <i> yarn</i> </p>
+                           <h3>   Managing Yarn Dependencies</h3>
+                            Let’s use <span class="text-primary">lodash</span>  for most of our examples: 
+                            <br><br>
+                             <h5>  Adding a project dependency</h5> 
+                            Use the <span class="text-primary">add</span>  command to add a dependency to your project:
+
+                            <p class="text-danger "> <i>yarn add lodash </i></p> 
+
+                            You will see an <span class="text-success">output</span>  like this:
+
+                            <h5>Output</h5>
+                            <br> 
+                            <p>
+                            yarn add v1.22.5 <br>
+                            info No lockfile found.<br>
+                            [1/4] 🔍  Resolving packages...<br>
+                            [2/4] 🚚  Fetching packages...<br>
+                            [3/4] 🔗  Linking dependencies...<br>
+                            [4/4] 🔨  Building fresh packages...<br>
+                            success Saved lockfile.<br>
+                            success Saved 1 new dependency.<br>
+                            info Direct dependencies<br>
+                            └─ lodash@4.17.20<br>
+                            info All dependencies<br>
+                            └─ lodash@4.17.20<br>
+                            ✨  Done in 1.48s.<br>
+                          </p><br><h5> add a package as a dev dependency: </h5>
+                             Use the --dev ( or its alias -D ) flag to 
+
+                            <br><p class="text-danger  "> <i>yarn add babel-cli -D </i></p> 
+                            <h5>Updating a dependency  </h5> 
+                            <p class="text-danger "> <i> yarn upgrade lodash </i></p> 
+                            <h5>  upgrade all the dependencies:</h5> 
+
+                            <p class="text-danger "> <i> yarn upgrade</i></p> 
+                            <h5> Removing a dependency </h5> 
+                            <span class="text-danger "> <i>yarn remove lodash</i> </span> 
+                            <h5>Adding a global dependency  </h5> 
+                            <p class="text-danger "> <i> yarn global add lodash </i></p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="card">
+                        <div class="card-header">
+                          <a href="#yarnAndReact" data-bs-toggle="collapse" class="btn"> Yarn and React ... </a>
+                        </div>
+                        <div class="collapse  " id="yarnAndReact" data-bs-parent="#yarn-accordion">
+                          <div class="card-body">
+                            every time we create a <span class="text-primary">React app</span>  it comes with <span class="text-primary">yarn</span>  build-in to it  
+                            so you can use 
+                            <p class="text-danger"> <i> yarn start </i></p> 
+                          </div>
+                        </div>
+                      </div>
+
+
+                      
+ 
+
+
+                      
+
+
+                      
+                    </div>
+                  </div>
+
+                   <!--YARN and NPM PANE -->
+                  <div id="yarnandnpm" class="container  tab-pane pb-5 mb-5 "><br>
+                    <h3>Npm and Yarn </h3>
+                    <div id="npm_yarn-accordion" >
+                      <div class="card">
+                        <div class="card-header">
+                          <a href="#npmandyarn" data-bs-toggle="collapse" class="btn"> Details... </a>
+                        </div>
+                        <div class="collapse show" data-bs-parent="#npm_yarn-accordion" id="npmandyarn" >
+                          <div class="card-body">
+                             <span class="text-success">yarn</span>  is fast and reliable alternative to <span class="text-primary">npm</span> , 
+                             similar syntax and functionality to <span class="text-primary">npm</span> , 
+                             installs packages from npm registry ... <br>
+                             <span class="text-primary">npm v5</span>   changes the game a bit it much faster than <span class="text-primary">npm v4</span>
+                             <br>
+                             <ul>
+                              <li> <i> added standardized lockfile for cross-package compatibility </i> </li>
+                              <li> <i> removed the need for --save to save as dependency </i> </li>
+                             </ul>  
+                             these are some reasons why yarn was generally a better choice , yarn is a bit faster still but not to much <br>
+                             <h3 class="d-inline"> npm problems </h3> it has problems in <br>  
+                             - security <br> - consistency <br> - performance <br>
+                             <h3 > yarn  </h3>   
+                             - enhanced security <br> - better stability <br> - faster <br>
+                             <span class="text-primary">npm </span> has <span class="text-decoration-line-through">no offline</span>  mode 
+                             <br> when it comes to speed 
+                             <table class="table">
+                              <thead>
+                                <tr>
+                                  <th>  </th>
+                                  <th>Trial #1</th>
+                                  <th>Trial #2</th>
+                                  <th>Trial #3</th>
+                                  <th>Trial #4</th>
+                                  <th>Trial #5</th>
+                                  <th>Average Time</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>npm </td>
+                                  <td>193.15 </td>
+                                  <td>182.38 </td>
+                                  <td>190.03 </td>
+                                  <td>185.23 </td>
+                                  <td>190.29 </td>
+                                  <td>188.216 </td>
+                                </tr>
+                                <tr>
+                                  <td>yarn</td>
+                                  <td>36.4 </td>
+                                  <td>42.56 </td>
+                                  <td>38.94 </td>
+                                  <td>40.2 </td>
+                                  <td>38.01 </td>
+                                  <td>39.222 </td>
+                                </tr>
+                              </tbody>
+                              
+                             </table>
+                            when to do the testing  with which one is faster yarn is almost x5 to x8 times faster than npm   - in every single package 
+                             
+
+
+                          </div>
+                        </div>
+                        
+                      </div>
+
+                      <div class="card ">
+                        <div class="card-header">
+                          <a href="#YarnGoodPoint" data-bs-toggle="collapse" class="btn">What is the good point to use yarn over npm  </a>
+                        </div>
+                        <div class="collapse " data-bs-parent="#npm_yarn-accordion" id="YarnGoodPoint">
+                          <div class="card-body" >
+                            so here is some of the main advantages of <span class="text-primary">yarn</span> over <span class="text-primary">npm </span>
+                            <ul>
+                              <li> <i> Speed and predictability </i> </li>
+                              <li> <i> More efficient  </i> </li>
+                              <li> <i> More secure than <span class="text-primary">npm </span> packages   </i> </li>
+                              <li> <i> has access to 300,000+ packages in <span class="text-primary">NPM </span> registry    </i> </li>
+                              <li> <i> resolves issues around "versioning"    </i> </li>
+                              <li> <i> Reuses <span class="text-primary">npm </span> json file and doesn't change its structure     </i> </li>
+                              <li> <i> can install packages from local cache      </i> </li>
+                              <li> <i> has active user community - but is smaller than <span class="text-primary">npm </span> user community      </i> </li>
+                             </ul>
+                             
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="card ">
+                        <div class="card-header">
+                          <a href="#YarnBadPoint" data-bs-toggle="collapse" class="btn">What is the bad point to use yarn over npm  </a>
+                        </div>
+                        <div class="collapse " data-bs-parent="#npm_yarn-accordion" id="YarnBadPoint">
+                          <div class="card-body" >
+                            but there is some <span class="text-danger">bad points</span>  to use <span class="text-primary">yarn</span> 
+                             <ul>
+                              <li> <i> takes up more space  - more hard disk space   </i> </li>
+                              <li> <i> it is newer package that end to people will be more skepticism    </i> </li>
+                              <li> <i> smaller community than "NPM" </i> </li>
+                              <li> <i> running into promlems installing  <span class="text-info">" Native Modules "</span>  </i> </li>
+                              <li> <i> and yarn doesn't work with any <span class="text-info">Node.js</span>  older than v5.0 </i> </li>
+                             </ul>
+                             so .. the trend of user between <span class="text-success">yarn</span>  and <span class="text-success">npm</span> - Most of them prefer to use <span class="text-primary">NPM</span> because <span class="text-primary">yarn</span> is still relatively new
+                          </div>
+                        </div>
+                      </div>
+
+
+                      <div class="card ">
+                        <div class="card-header">
+                          <a href="#whyYarnIsMoreSecure" data-bs-toggle="collapse" class="btn">Why Yarn Is More Secure Than NPM ? </a>
+                        </div>
+                        <div class="collapse " data-bs-parent="#npm_yarn-accordion" id="whyYarnIsMoreSecure">
+                          <div class="card-body" >
+                            <span class="text-success">yarn </span> install files only from the yarn lock <span class="text-primary"> package.json </span >  file and it considers More secure than <span class="text-primary">npm</span> packages
+                          </div>
+                        </div>
+                      </div>
+
+
+                      <div class="card mb-5">
+                        <div class="card-header">
+                          <a href="#key_differences" data-bs-toggle="collapse" class="btn">What is the key differences between Yarn and Npm ? </a>
+                        </div>
+                        <div class="collapse " data-bs-parent="#npm_yarn-accordion" id="key_differences">
+                          <div class="card-body" >
+                            there is <span class="text-primary">one simple</span>  difference ,   
+                            any thing we have to do  <p class="text-danger pt-3"> <i> npm install</i></p>
+                            with <span class="text-primary">yarn</span> it will be <p class="text-danger pt-3"> <i> yarn add</i></p>
+                            there is a table .. 
+                            <table class="table">
+                              <thead>
+                                <tr>
+                                  <th>Command</th>
+                                  <th>npm</th>
+                                  <th>yarn</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>install dependencies</td>
+                                  <td>npm install</td>
+                                  <td>yarn</td>
+                                </tr>
+                                <tr>
+                                  <td>install Packages</td>
+                                  <td> npm <span class="text-danger">install</span>   [package]</td>
+                                  <td> yarn <span class="text-danger"> add</span> [package]</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+                  </div>
+
+                  <!-- React PANE -->
+                  <div id="React" class="container tab-pane "><br>
+                    <h3>React</h3>
+                    <div id="react_accordion">
+                      <div class="card">
+                      <div class="card-header">
+                        <a href="#yarnAndReact-1" data-bs-toggle="collapse" class="btn"> Yarn and React ... </a>
+                      </div>
+                      <div class="collapse show  " id="yarnAndReact-1" data-bs-parent="#react_accordion">
+                        <div class="card-body">
+                          every time we create a <span class="text-primary">React app</span>  it comes with <span class="text-primary">yarn</span>  build-in to it ,   
+                          so you can use 
+                          <p class="text-danger text-center"> <i> yarn start </i></p> 
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                    
+                  </div>
+
+
+                  <!-- Laravel PANE -->
+                  <div id="Laravel" class="container   tab-pane mb-5 pb-5 "><br>
+                    <h3>Laravel : The PHP Framework
+                      for Web Artisans</h3>
+                    <div id="laravel_accordion">
+
+
+                      <div class="card ">
+                        <div class="card-header">
+                          <a href="#whatIsLaravel" class="btn" data-bs-toggle="collapse">What is Laravel ? </a>
+                        </div>
+                        <div class="collapse  show" data-bs-parent="#laravel_accordion" id="whatIsLaravel">
+                          <div class="card-body">
+                            <span class="text-primary">Laravel</span>  is a web application framework with expressive , elegant syntax.<br>
+                            Simple, elegant syntax puts amazing functionality at your fingertips. Every feature has been thoughtfully considered to provide a wonderful developer experience <br>
+                            <span class="text-primary">Laravel</span> offers  everything to be amazing <br><br>
+                            <div class="list-group">
+                              <a href="#" class="list-group-item list-group-item-action " aria-current="true">
+                                <div class="d-flex w-100 justify-content-between">
+                                  <h5 class="mb-1">Database</h5>
+                                </div>
+                                <p class="mb-1">Some placeholder content in a paragraph.</p>
+                              </a>
+                              <a href="#" class="list-group-item list-group-item-action">
+                                <div class="d-flex w-100 justify-content-between">
+                                  <h5 class="mb-1">Queues</h5>
+                                </div>
+                                <p class="mb-1">Some placeholder content in a paragraph.</p>
+                              </a>
+                              <a href="#" class="list-group-item list-group-item-action">
+                                <div class="d-flex w-100 justify-content-between">
+                                  <h5 class="mb-1">WebSockets</h5>
+                                </div>
+                                <p class="mb-1">Some placeholder content in a paragraph.</p>
+                              </a>
+                              <a href="#" class="list-group-item list-group-item-action">
+                                <div class="d-flex w-100 justify-content-between">
+                                  <h5 class="mb-1">Authentication</h5>
+                                </div>
+                                <p class="mb-1">Some placeholder content in a paragraph.</p>
+                              </a>
+                            </div>
+                            <br> it was created in 2011 by <span class="text-danger">taylor otwell</span> 
+                             laravel used as a model view controller <span class="text-primary"> (MVC)</span> framework to build <span class="text-primary">server-side</span>   web applications <br> 
+                             . <span class="text-success">model</span>  :  represents data that can live in a wide variety of databases like <span class="text-primary">postgreSQL</span>  - <span class="text-primary">MongooDB</span>   .. <br>
+                             . while a <span class="text-success">view</span> :  represents what the end user seen in HTML  <br>
+                             . router and <span class="text-success">controllers</span> :  which allow the user to safely interct with the data model 
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="card">
+                        <div class="card-header">
+                          <a href="#GetStarted" class="btn" data-bs-toggle="collapse">Get Started .. </a>
+                        </div>
+                        <div class="collapse  " data-bs-parent="#laravel_accordion" id="GetStarted">
+                          <div class="card-body">
+                            to get started with <span class="text-primary">laravel</span>  .. <br>
+                            install php and composer
+                            then create a new project 
+                            <br><br> <p class="text-danger text-center"> <i>composer create-project laravel/laravel { project-name }</i>  </p>
+                            by default it will be configured with <span class="text-primary">mySQL</span> as the Database and the application lifecycle start in the <span class="text-primary">index.php</span>  file , and 
+                            when the user make a <span class="text-primary">request</span> <br>  it goes to the <span class="text-primary">HTTP kernel </span> which contains 
+                            middleware to intercept  the request and register service <br>
+                            <br> a <span class="text-primary">controller</span> is just a php <span class="text-primary">class</span>  that contains varety of methods like [ <span class="text-primary">show  </span> - <span class="text-primary">update</span> - <span class="text-primary">edit</span> - <span class="text-primary">destroy</span> ] , <br>
+                            inside the methods we might ues a model to make a query to the database <br>
+                            but instead of <span class="text-primary">raw SQL</span>  , code uses <span class="text-primary">Eloquent ORM </span> make the code far more human readable <br>
+                            <br>  the return value from a method called a view 
+                            the <span class="text-primary">view</span> is a blade template that interplates the data from the database directly into <span class="text-primary">HTML</span> , <br>
+                            and it has the full power of php allowing us to implement <span class="text-primary">conditional</span> - <span class="text-primary">logic</span> and <span class="text-primary">loops</span> with a familiar syntax   
+                            <br> <span class="text-primary">laravel</span> comes with a ton of other built-in features like :
+                            <ul class="list-group-flush">
+                              <li>QUEUES</li>
+                              <li>FILE STORAGE</li>
+                              <li>WEB SOCKETS for real-time app</li>
+                            </ul> 
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="card ">
+                        <div class="card-header  ">
+                          <a href="#laravelPackages" class="btn" data-bs-toggle="collapse">laravel Packages .. </a>
+                        </div>
+                        <div class="collapse   " data-bs-parent="#laravel_accordion" id="laravelPackages">
+                          <div class="card-body">
+                            Composer , Yarn  <br>
+                            both are <span class="text-primary">package managers</span> . <span class="text-primary">Composer</span>  is for <b> <span class="text-warning">php</span> </b> projects while <span class="text-primary">yarn</span>  is for  <b> <span class="text-warning">javascript</span> </b>  and meant to be a replacement for <span class="text-primary">npm</span> ,
+                            <br> with <span class="text-primary">Composer</span> we can install update and remove package ,
+                            <br> to download <span class="text-primary">Composer</span> from the link <a href="https://getcomposer.org/Composer-Setup.exe" class="">Composer</a>   
+                            <br> we can borwse the packages from the <a href="https://packagist.org/" class="">packagist</a> site , 
+                            and the popular packages here <a href="https://packagist.org/explore/popular" class="">popular packages</a> 
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="card mb-5">
+                        <div class="card-header ">
+                          <a href="#moreDetails" class="btn" data-bs-toggle="collapse">more Details .. </a>
+                        </div>
+                        <div class="collapse  " data-bs-parent="#laravel_accordion" id="moreDetails">
+                          <div class="card-body">
+                            <span class="text-primary">Composer</span>  is a tool for dependency management in <span class="text-primary">PHP</span>. It allows us   to declare the <span class="text-primary">libraries</span> our  project depends on and it will manage (install/update) them for us <br>
+                            <span class="text-primary">Composer</span>  is not a <span class="text-danger">package manager</span>  in the same sense as <span class="text-primary">Yum</span>  or <span class="text-primary">Apt</span>  are. Yes, it deals with "<span class="text-primary">packages</span>" or libraries, but it manages <br>
+                             them on a per-project basis, installing them in a directory inside your project. By default, <br>
+                             <br> Composer does not install anything <span class="text-primary">globally</span>  . <br> Thus, it is a dependency manager. It does however support a "<span class="text-primary">global</span>" project for convenience via the global command.
+                            <br> This idea is not new ,  and <span class="text-primary">Composer</span> is strongly inspired by <span class="text-primary">node's npm</span>  and <span class="text-primary">ruby's bundler</span> .
+                            <br><br>
+                            we can telling  <span class="text-primary">Composer</span> which packages our project depends on , by using the <span class="text-danger">require</span>  key inside the <span class="text-primary">composer.json</span>  file <br>
+                            <span class="text-danger">require</span> takes an object that maps  package names to version constraints ... like : 
+                              <br><br> <pre class=" text-danger">
+                                {
+                                  "require": {
+                                      "monolog/monolog": "2.0.*"
+                                  }
+                              }
+                              </pre>
+                            
+                            and we can make our library installable through <span class="text-primary">Composer</span> , so .. <b> Every project is a package </b> The only difference between our <span class="text-primary">project</span> and a <span class="text-primary">library</span> is that your project is a  package without a <span class="text-primary">name</span> <br>
+
+                            
+                          </div>
+                        </div>
+                      </div>
+                      
+
+                    </div> 
+                             
+                  </div>
+                  
+                  <!--PNPM PANE -->
+                  <div id="Pnpm" class="container tab-pane "><br>
+                    <h3>Pnpm</h3>
+                    <div id="pnpm-accordion"> 
+                    <div class="card">
+                      <div class="card-header">
+                        <a href="#readAboutPnpm"  class="btn" data-bs-toggle="collapse"> Learn about Pnpm package manager ...  </a>
+                      </div>
+                      <div class="collapse show" id="readAboutPnpm" data-bs-parent="#pnpm-accordion">
+                        <div class="card-body">
+                          follow the link to learn about  <a href="https://pnpm.io/motivation" class="text-decoration-none" > Pnpm</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  </div>
+              </div>
+            </div>
+
+
+
+                        <!-- Footer -->
+            <footer class="bg-dark text-center fixed-bottom  text-white">
+              <!-- Grid container -->
+              <div class="container p-4">
+                <!-- Section: Social media -->
+                <section class="mb-4">
+                  <!-- Facebook -->
+                  <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/profile.php?id=100025366722156" role="button"
+                    ><i class="fa fa-facebook-f"></i
+                  ></a>
+                    
+                  <!-- Twitter -->
+                  <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/ABOOD_iteng" role="button"
+                    ><i class="fa fa-twitter"></i
+                  ></a>
+                    
+                  <!-- Google -->
+                  <a class="btn btn-outline-light btn-floating m-1" href="mailto:dbnkalhbalb@gmail.com" target="_blank" role="button"
+                    ><i class="fa fa-google"></i
+                  ></a>
+                    
+                    
+                  <!-- Instagram -->
+                  <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/abdullah_supernova/" role="button"
+                    ><i class="fa fa-instagram"></i
+                  ></a>
+                    
+                  <!-- Linkedin -->
+                  <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/engabdullahalhabal/" role="button"
+                    ><i class="fa fa-linkedin"></i
+                  ></a>
+                    
+                  <!-- Github -->
+                  <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/ABOOD0969" role="button"
+                    ><i class="fa fa-github"></i
+                  ></a>
+                </section>
+                <!-- Section: Social media -->
+              
+              </div>
+              <!-- Grid container -->
+
+              <div class="text-center mb-3">
+                made with ❤ by Abdullah  
+              </div>
+
+              
+              
+              <!-- Copyright -->
+              <div class="text-center p-3 " style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2023 Copyright:
+                <a class="text-white text-decoration-none" href="#">Abdullah Al-Habal</a>
+              </div>
+              <!-- Copyright -->
+            </footer>
+            <!-- Footer -->
+              
+             
+
+            
+        
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        </body>
+
+    </html>
